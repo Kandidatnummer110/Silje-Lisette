@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+header {
+    width: 100%;
+    background-color: beige;
+    position: fixed;
+    z-index: 12;
+}
+header nav {
+    width: 800px;
+    padding: 30px 10px;
+    margin: 0; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+.menu li a{
+    display: inline-block; 
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.menu li {
+    float: left; 
+    margin-left: 20px;
+    list-style: none;
+}
+.wrapp-poster {
+    width: 100%;
+    height: 628px;
+    background-image:url(ferie.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+#hjem {
+    padding-left: 500px;
+    padding-top: 300px; 
+    font-size: 30px;
+}
+#hjem h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+#hjem h2 {
+    font-family: 'Lato', sans-serif;
+}
+#hjem h2 {
+    font-stretch: semi-condensed;
+}
+#KontaktOss {
+    background-color: darkseagreen;
+    width: 100%; 
+    display: inline-block; 
+}
+
+#velkommen {
+    background-color: darkkhaki;
+    width: 100%;
+    display: inline-block; 
+}
+
+#velkommen div{
+    width: 50%; 
+    float: left;
+    padding-left: 70px;
+    padding-top: 80px;    
+}
+
+#velkommen img{
+    width: 30%; 
+    float: left;  
+}
+
+#videoer {
+    background-color: lightpink;
+    width: 100%;
+    display: inline-block; 
+}
+
+#videoer div{
+    width: 50%; 
+    float: right;
+    padding-left: 70px;
+    padding-top: 80px;    
+}
+
+
+#videoer img{
+    width: 50%; 
+    float: right;   
+}
+
+
+#nyheter {
+    background-color: lightblue;
+    width: 100%;
+    display: inline-block; 
+}
+
+#nyheter img {
+    width: 30%; 
+    float: left;  
+}
+
+#nyheter div{
+    width: 50%; 
+    float: left;
+    padding-left: 70px;
+    padding-top: 80px;    
+}
+
